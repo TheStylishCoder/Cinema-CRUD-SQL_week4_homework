@@ -52,7 +52,116 @@ SELECT name FROM people;
 (16 rows)
 
 3.  Oops! Someone spelled Krusty The Clown's name wrong! Change it to reflect the proper spelling (Crusty should be Krusty).
+
+UPDATE people SET name = 'Krusty The Clown' WHERE id = 13;
+SELECT * FROM people;
+
+DROP TABLE
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+UPDATE 1
+ id |         name         
+----+----------------------
+  1 | Homer Simpson
+  2 | Marge Simpson
+  3 | Lisa Simpson
+  4 | Maggie Simpson
+  5 | Patty Bouvier
+  6 | Selma Bouvier
+  7 | Kent Brockman
+  8 | Ned Flanders
+  9 | Barney Gumble
+ 10 | Itchy
+ 11 | Eric Cartman
+ 12 | Scratchy
+ 14 | Montgomery Burns
+ 15 | Mayor Joe Quimby
+ 16 | Groundskeeper Willie
+ 13 | Krusty The Clown
+(16 rows)
+
 4.  Return ONLY Homer Simpson's name from the 'people' table.
+
+SELECT FROM people WHERE name = 'Homer Simpson';
+
+DROP TABLE
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+--
+(1 row)
+
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 6.  We forgot one of the main characters! Add Bart Simpson to the 'people' table
 7.  Eric Cartman has decided to hijack our movie evening, Remove him from the table of people.
